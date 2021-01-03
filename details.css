@@ -1,0 +1,26 @@
+.breadcrumb-item+.breadcrumb-item::before{
+	content: ">";
+}
+.w-15{width: 15%;}
+img.w-15:hover{
+	border: 1px solid #666;
+	margin: 1px 0 0 1px;
+}
+.my_shadow{
+	box-shadow: 0 -1px 8px 3px #ccc;
+}
+.btn-outline-secondary{
+	border-radius: 0;
+	margin: 2px;
+	font-size: 0.8rem;
+}
+.btn-outline-secondary:hover{
+	background-color: transparent;
+	color: #0aa1ed;
+	border-color: #0aa1ed;
+}
+.btn-outline-secondary.active{
+	border-color: #0aa1ed !important;
+	background-color: transparent !important;
+	color: #999 !important;
+}
